@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link'
+import Image from "next/image";
 
 
 import styles from "./page.module.css";
@@ -38,7 +39,7 @@ const route = useRouter()
         >
         
             About
-          
+            
         </a>
 
         <a
@@ -61,18 +62,21 @@ const route = useRouter()
             </div>
         </div>
     </nav>
-    <h1> homepage</h1>
-   <button className="p-9 bg-blue-10" onClick={()=>route.push('./Contact')}>go to contact page</button>
-   <button className="p-40 bg-green-40" onClick={()=>route.push('./About')}>go to About page</button>
-   <button className="p-40 bg-green-40" onClick={()=>route.push('./Footer')}>go to Footer page</button>
-   <button className="p-40 bg-green-40" onClick={()=>route.push('./Navbar')}>go to Navbar page</button>
+    <h1>this is Footer page</h1>
 
+    <footer style={{ textAlign: 'center', padding: '20px', backgroundColor: '#333', color: '#fff' }}>
+      <p>Footer Content © 2024</p>
+    </footer>
   
-    
+
+
+
+
+       
+    </> 
+            
+          
       
-    </>
-  )
+    
+  );
 }
-
-
-
