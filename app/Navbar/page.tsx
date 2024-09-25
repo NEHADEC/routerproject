@@ -63,6 +63,7 @@ const route = useRouter()
         </div>
     </nav>
     <h1>this is Navbar page</h1>
+    <h2>hello world</h2>
 
 
 
